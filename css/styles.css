@@ -1,0 +1,250 @@
+:root {
+    --title-color: #2E2F42;
+    --mein-text-color: #FFFFFF;
+    --second-text-color: #404BBF;
+    --contacts-color: #434455;
+    --blue-logo-color: #4d5ae5;
+    --blue-text-color: #F4F4FD;
+}
+
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    color: var(--contacts-color);
+    background-color: var(--mein-text-color);
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+/*---------- HEDER--------- */
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue-logo-color);
+}
+
+.header-logo span {
+    color: var(--title-color);
+}
+
+.header-span {
+    color: #FFFFFF;
+}
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--second-text-color);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-menu-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+}
+
+.header-address-menu-link:hover,
+.header-address-menu-link:focus {
+    color: var(--second-text-color);
+}
+
+
+/* ------------HERO----------- */
+
+.hero {
+    background: var(--title-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4d5ae5;
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/* -------------CRITERIA----------- */
+
+
+
+.criteria-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.criteria-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+}
+
+/* ----------------LABOR---------- */
+
+
+
+.labor-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+
+
+/* -----------------TEAM------------------ */
+.team {
+    background: var(--blue-text-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-item-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+    background-color: #FFFFFF;
+}
+
+
+/* ----------FOOTER----------- */
+
+.footer {
+    background: var(--title-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-span {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--blue-text-color);
+}
+
+/* ----------------------MENU----------------- */
+
+.menu-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background: var(--blue-text-color);
+    color: var(--blue-logo-color);
+
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+/* ------------------APPLICATIONS--------------- */
+
+.applications-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+
+}
+
+.applications-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+}
