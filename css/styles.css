@@ -39,10 +39,12 @@ h6 {
 }
 
 .container {
-    width: 1470px;
+    width: 100%;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    outline: 2px solid red;
 }
 
 
