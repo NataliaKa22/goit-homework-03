@@ -50,6 +50,11 @@ h6 {
 
 /*---------- HEDER--------- */
 
+.header {
+    padding: top 24px;
+    padding-bottom: 24px;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-style: normal;
