@@ -51,8 +51,12 @@ h6 {
 /*---------- HEDER--------- */
 
 .header {
-    padding: top 24px;
+    padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
 }
 
 .header-logo {
@@ -66,8 +70,29 @@ h6 {
     color: var(--blue-logo-color);
 }
 
+
+
 .header-logo span {
     color: var(--title-color);
+}
+
+.header-navigation {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header-menu {
+    display: flex;
+    min-width: 261px;
+}
+
+.header-address-menu {
+    display: flex;
+}
+
+.header-address {
+    display: flex;
+
 }
 
 .header-span {
