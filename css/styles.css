@@ -47,9 +47,6 @@ h6 {
 }
 
 
-
-
-
 /*---------- HEDER--------- */
 
 .header {
@@ -137,16 +134,16 @@ h6 {
 /* ------------HERO----------- */
 
 .hero {
-    padding-bottom: 120px;
-
-
-}
-
-.hero-container {
     background: var(--title-color);
     padding: 188px 0;
-
+    padding-bottom: 120px;
 }
+
+.hero-container {}
+
+
+
+
 
 .hero-title {
 
@@ -185,6 +182,7 @@ h6 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
@@ -196,16 +194,15 @@ h6 {
 /* -------------CRITERIA----------- */
 
 .criteria {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .criteria-list {
     display: flex;
-    padding-left: 156px;
-    padding-right: 156px;
     gap: 24px;
 }
+
 
 .criteria-subtitle {
     font-weight: 500;
@@ -217,7 +214,7 @@ h6 {
 }
 
 .criteria-item {
-    width: calc((100%-72px)/4)
+    width: calc((100%-3*24px)/4)
 }
 
 .criteria-item-text {
@@ -225,9 +222,20 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contacts-color);
+    max-width: 264px;
+    margin: 0 auto;
 }
 
+
 /* ----------------LABOR---------- */
+
+.labor {
+    padding-bottom: 120px;
+}
+
+.team-img {
+    background-color: #FFFFFF;
+}
 
 
 
@@ -239,14 +247,35 @@ h6 {
     text-align: center;
     text-transform: capitalize;
     color: var(--title-color);
+    margin-bottom: 72px;
 }
+
+.labor-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.labor-item {
+    width: calc((100%-24*3)/3);
+}
+
+.labor-img {}
 
 
 
 /* -----------------TEAM------------------ */
 .team {
+    padding-bottom: 120px;
+
+}
+
+.team-container {
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: var(--blue-text-color);
 }
+
 
 .team-title {
     font-weight: 700;
@@ -256,7 +285,9 @@ h6 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color);
+    margin-bottom: 72px;
 }
+
 
 .team-subtitle {
     font-weight: 500;
@@ -264,15 +295,25 @@ h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    padding: 0 51 32 51px;
 }
 
 .team-list {
+    display: flex;
+    gap: 24px;
     background-color: #FFFFFF;
 }
 
 .team-item {
+    width: calc((100%-24*3)/4);
     background-color: #FFFFFF;
+
 }
+
+.team-person {
+    padding: 32px 16px 32px 16px;
+}
+
 
 .team-item-text {
     font-size: 16px;
