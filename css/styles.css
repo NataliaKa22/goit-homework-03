@@ -204,7 +204,6 @@ h6 {
 
 /* -------------CRITERIA----------- */
 
-.visually-hidden {}
 
 .criteria {
     padding-top: 120px;
@@ -407,6 +406,9 @@ h6 {
     background: var(--blue-text-color);
     color: var(--blue-logo-color);
 
+    padding: 12px 24px;
+    border-radius: 4px;
+
 }
 
 
@@ -415,6 +417,7 @@ h6 {
 .menu-btn:focus {
     color: #FFFFFF;
     background: #404BBF;
+    border: 1px solid transparent;
 
 }
 
