@@ -405,7 +405,7 @@ h6 {
     cursor: pointer;
     background: var(--blue-text-color);
     color: var(--blue-logo-color);
-
+    border: 1px solid #e7e9fc;
     padding: 12px 24px;
     border-radius: 4px;
 
@@ -444,6 +444,7 @@ h6 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+
 }
 
 .applications-title {
