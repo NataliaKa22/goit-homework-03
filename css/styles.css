@@ -68,7 +68,6 @@ h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--blue-logo-color);
-    margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -82,13 +81,11 @@ h6 {
 
 .header-navigation {
     display: flex;
-    flex-grow: 1;
     align-items: center;
 }
 
 .header-menu {
     display: flex;
-    min-width: 261px;
     margin-left: 76px;
     gap: 40px;
 }
@@ -98,10 +95,6 @@ h6 {
     gap: 40px;
 }
 
-.header-address {
-    display: flex;
-
-}
 
 .header-span {
     color: #FFFFFF;
@@ -123,6 +116,7 @@ h6 {
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-address-menu-link {
@@ -151,15 +145,6 @@ h6 {
 
 }
 
-.hero-container {
-
-    padding-bottom: 120px;
-}
-
-
-
-
-
 .hero-title {
 
     font-weight: 700;
@@ -179,7 +164,6 @@ h6 {
 
 
 .hero-button {
-    font-family: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -224,7 +208,7 @@ h6 {
 .criteria {
     padding-top: 120px;
     padding-bottom: 120px;
-    height: 104px;
+
 }
 
 .criteria-list {
@@ -259,7 +243,6 @@ h6 {
 /* ----------------LABOR---------- */
 
 .labor {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -300,14 +283,11 @@ h6 {
 
 /* -----------------TEAM------------------ */
 .team {
-    padding: 120px 0px 0px 0px;
-}
-
-.team-container {
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 120px 0;
     background: var(--blue-text-color);
 }
+
+.team-container {}
 
 
 .team-title {
@@ -346,8 +326,7 @@ h6 {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 120px;
-    padding-left: 0;
+
 }
 
 .team-person {
@@ -409,14 +388,6 @@ h6 {
 .menu {
     padding-top: 96px;
     padding-bottom: 120px;
-}
-
-.menu-container {
-
-    gap: 24px;
-    margin-bottom: 72px;
-    justify-content: center;
-    padding-left: 0;
 }
 
 .menu-btn {
@@ -497,10 +468,6 @@ h6 {
 }
 
 .applications-item {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
     width: calc((100% - 48px) / 3);
 }
 
@@ -521,12 +488,7 @@ h6 {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+
 }
 
-
-
-.applications-logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+.applications-logo {}
